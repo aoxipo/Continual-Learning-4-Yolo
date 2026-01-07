@@ -1,0 +1,14 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /data/lijunlin/project/Detect/yolov11/CL/data/stage3/  # dataset root dir
+train: images/train
+val: images/val
+test: images/val
+
+# channels: 1
+# Classes
+nc: 3  # number of classes
+names: 
+  0: 'ring'
+  1: 'triangle'
+  2: 'rectangle'
+  
